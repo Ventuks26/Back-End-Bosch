@@ -13,3 +13,4 @@ mongoose.connect('mongodb://localhost:27017/shop', (err,res) => {
 app.listen( port, () => {
     console.log(`API REST corriendo desde localhost:${port}`)
 })
+
